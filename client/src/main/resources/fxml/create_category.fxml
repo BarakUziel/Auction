@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.CreateCategoryController"
+      style="-fx-padding: 20;"
+      stylesheets="@../css/auction.css">
+
+    <fx:include source="header.fxml"/>
+
+    <Label text="Create New Category" style="-fx-font-size: 18px;"/>
+    <TextField fx:id="nameField" promptText="Category Name"/>
+    <Button text="Submit" onAction="#createCategory"/>
+    <Label fx:id="errorLabel" textFill="red"/>
+</VBox>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="client:test" external.linked.project.path="$MODULE_DIR$/../../client" external.root.project.path="$MODULE_DIR$/../../client" external.system.id="GRADLE" external.system.module.group="com.auction" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../client/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../client/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="client.main" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.17.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.17.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.17.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-fxml:win:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:win:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:win:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:win:21" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="client.main" />
+</module>

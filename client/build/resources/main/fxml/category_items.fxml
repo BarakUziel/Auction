@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.CategoryItemsController"
+      style="-fx-padding: 20;">
+    <fx:include source="header.fxml"/>
+
+    <Label fx:id="categoryLabel" style="-fx-font-size: 18px;"/>
+    <Label style="-fx-font-size: 14px;" text="Double click an item in order to bid on it"/>
+
+    <TableView fx:id="itemsTable" prefWidth="800" prefHeight="400">
+        <columns>
+            <TableColumn text="Name" fx:id="nameColumn" prefWidth="100"/>
+            <TableColumn text="Description" fx:id="descriptionColumn" prefWidth="150"/>
+            <TableColumn text="Start Price" fx:id="startPriceColumn" prefWidth="80"/>
+            <TableColumn text="Current Price" fx:id="priceColumn" prefWidth="80"/>
+            <TableColumn text="Start Date" fx:id="startDateColumn" prefWidth="100"/>
+            <TableColumn text="End Date" fx:id="endDateColumn" prefWidth="100"/>
+            <TableColumn text="Seller ID" fx:id="sellerIdColumn" prefWidth="80"/>
+            <TableColumn text="Bids" fx:id="bidsColumn" prefWidth="60"/>
+        </columns>
+    </TableView>
+
+    <Label fx:id="errorLabel" textFill="red"/>
+</VBox>

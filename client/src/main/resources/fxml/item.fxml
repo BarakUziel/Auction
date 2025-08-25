@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.ItemController"
+      spacing="10" style="-fx-padding: 20;" alignment="CENTER">
+
+    <fx:include source="header.fxml"/>
+
+    <Label fx:id="itemNameLabel" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <Label fx:id="descriptionLabel" wrapText="true"/>
+    <Label fx:id="startPriceLabel"/>
+    <Label fx:id="currentPriceLabel"/>
+    <Label fx:id="startDateLabel"/>
+    <Label fx:id="endDateLabel"/>
+    <Label fx:id="bidCountLabel"/>
+    <Label fx:id="sellerLabel"/>
+
+    <Button text="Place Bid" onAction="#goToBid"/>
+
+    <Label text="Item Images" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-padding: 10 0 0 0;"/>
+
+    <FlowPane fx:id="imagePane"
+              hgap="20" vgap="20"
+              style="-fx-padding: 10;"
+              prefWrapLength="600"/>
+</VBox>

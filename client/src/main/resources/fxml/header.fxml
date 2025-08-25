@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.HeaderController"
+      spacing="10"
+      style="-fx-padding: 10; -fx-background-color: lightgray;"
+      stylesheets="@../css/auction.css">
+
+    <Button text="Home" onAction="#goHome"/>
+    <Button fx:id="logoutButton" text="Logout" onAction="#logout"/>
+
+</HBox>

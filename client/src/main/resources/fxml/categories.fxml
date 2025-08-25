@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.CategoriesController"
+      style="-fx-padding: 20;"
+      stylesheets="@../css/auction.css">
+
+    <fx:include source="header.fxml"/>
+
+    <Label text="Double click a categories to see its offered items" style="-fx-font-size: 18px;"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Add Category" onAction="#goToAddCategory"/>
+        <Button text="Add Item" onAction="#goToAddItem"/>
+    </HBox>
+
+
+    <TableView fx:id="categoriesTable" prefWidth="400">
+        <columns>
+            <TableColumn text="Category" fx:id="categoryColumn"/>
+        </columns>
+    </TableView>
+
+    <Label fx:id="errorLabel" textFill="red"/>
+</VBox>
+

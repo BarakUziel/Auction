@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.SoldItemsController"
+      spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+
+    <fx:include source="header.fxml"/>
+
+    <Label text="Sold Items" style="-fx-font-size: 18px;"/>
+
+    <TableView fx:id="soldItemsTable" prefWidth="600" prefHeight="400">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Item Name" prefWidth="200"/>
+            <TableColumn fx:id="finalPriceColumn" text="Final Price" prefWidth="150"/>
+            <TableColumn fx:id="buyerIdColumn" text="Winner ID" prefWidth="150"/>
+        </columns>
+    </TableView>
+
+    <Label fx:id="errorLabel" textFill="red"/>
+</VBox>

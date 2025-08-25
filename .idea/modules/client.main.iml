@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="client:main" external.linked.project.path="$MODULE_DIR$/../../client" external.root.project.path="$MODULE_DIR$/../../client" external.system.id="GRADLE" external.system.module.group="com.auction" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../client/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../client/build/generated/sources/annotationProcessor/java/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../client/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../client/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../client/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.18.32" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.17.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.17.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.17.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-fxml:win:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:win:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:win:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:21" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:win:21" level="project" />
+  </component>
+</module>

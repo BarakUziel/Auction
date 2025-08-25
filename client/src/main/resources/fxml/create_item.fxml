@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.CreateItemController"
+      style="-fx-padding: 20;">
+    <fx:include source="header.fxml"/>
+
+    <Label text="Create New Item" style="-fx-font-size: 18px;"/>
+
+    <TextField fx:id="nameField" promptText="Name"/>
+    <TextArea fx:id="descriptionField" promptText="Description"/>
+    <TextField fx:id="startPriceField" promptText="Start Price"/>
+    <TextField fx:id="daysField" promptText="Auction Days"/>
+
+    <ComboBox fx:id="categoryComboBox" promptText="Select Category"/>
+
+    <HBox spacing="10">
+        <Button text="Add Image(s)" onAction="#handleSelectImages"/>
+        <Label fx:id="imageCountLabel" text="No images selected"/>
+    </HBox>
+
+    <Button text="Submit" onAction="#createItem"/>
+    <Label fx:id="errorLabel" textFill="red"/>
+</VBox>
+

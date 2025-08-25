@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.auction.client.controllers.HomeController"
+      style="-fx-padding: 20;"
+      stylesheets="@../css/auction.css">
+
+    <Label text="Welcome to the Auction System" style="-fx-font-size: 18px;"/>
+
+    <Button fx:id="loginButton" text="Login" onAction="#goToLogin"/>
+    <Button fx:id="signupButton" text="Sign Up" onAction="#goToSignUp"/>
+    <Button fx:id="categoriesButton" text="Categories" onAction="#goToCategories" visible="false"/>
+    <Button fx:id="addItemButton" text="Add Item" onAction="#goToAddItem" visible="false"/>
+    <Button fx:id="soldButton" text="Sold Items" onAction="#goToSoldItems" visible="false"/>
+</VBox>

@@ -1,0 +1,30 @@
+.root {
+    -fx-font-family: Arial;
+    -fx-background-color: #f8f9fa;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.list-view, .table-view {
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+}
+
+.header {
+    -fx-background-color: #343a40;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
